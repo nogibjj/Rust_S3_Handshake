@@ -12,6 +12,10 @@ rust-version:
 	rustup --version			#rust toolchain manager
 	clippy-driver --version		#rust linter
 
+copy:
+	# copy the release binary to the root folder
+	cp target/release/rustS3 .
+
 format:
 	@echo "Formatting all projects with cargo"
 	./format.sh

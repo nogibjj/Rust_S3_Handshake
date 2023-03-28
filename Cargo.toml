@@ -1,5 +1,5 @@
 [package]
-name = "Rust_S3_Handshake"
+name = "rustS3"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,3 +7,5 @@ edition = "2021"
 
 [dependencies]
 rusoto_s3 = "0.48.0"
+rusoto_core = "0.48.0"
+tokio = "1.27.0"
